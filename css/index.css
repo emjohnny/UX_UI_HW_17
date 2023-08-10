@@ -78,7 +78,7 @@ a {
     flex-direction: center;
     justify-content: center;
     display: inline-block;
-    /*vertical-align: center;*/
+    vertical-align: center;
     text-align: center;
     width: 250px;
     height: 250px;
@@ -86,13 +86,42 @@ a {
     background-color: #FCEDD4;
     margin: 5%;
 }
-
-
-p#caseStudy1 {
+#caseStudy1 {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: center;
+}
+.textV {
+    padding-right: 20px;
+    padding-top: 10px;
+    float: center;
     margin: auto;
     width: 20%;
     padding: 10px;
 }
-vfw{
+.imageV {
+    max-width: 25%;
+    max-height: 15%;
     float: left;
+}
+
+#caseStudy2 {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    /*vertical-align: center;*/
+}
+.textP {
+    padding-right: 20px;
+    padding-top: 10px;
+    float: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+.imageP {
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
 }
