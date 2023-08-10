@@ -2,7 +2,7 @@
     display: inline-block;
     vertical-align: top;
 }
-.logo {
+.fancyName {
     margin:0;
     padding: 0;
     text-align: left;
@@ -128,7 +128,27 @@ a {
 .colabText {
     text-align: center;
     float: center;
-    margin: 300px;
+    margin: auto;
     width: 60%;
 
+}
+.myFace, .socialImgs {
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+.socialImgs {
+    top: 60%;
+}
+
+.phoneNum {
+    text-align: center;
+    float: center;
+    margin: auto;
+}
+
+.copyright {
+    text-align: center;
+    float: center;
+    margin: auto;
 }
